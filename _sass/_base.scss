@@ -281,7 +281,21 @@ header {
                 }
                 .project-name {
                     font-weight: 700;
-                    font-size: 30px;
+                    font-size: 33px;
+                    color: white;
+                }
+            }
+        }
+    }
+    @media (max-width: 370px) { //768
+        .portfolio-box-caption {
+            .portfolio-box-caption-content {
+                .project-category {
+                    font-size: 16px;
+                }
+                .project-name {
+                    font-weight: 700;
+                    font-size: 40px;
                     color: white;
                 }
             }
