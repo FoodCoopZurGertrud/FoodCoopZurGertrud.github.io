@@ -273,7 +273,7 @@ header {
             opacity: 1;
         }
     }
-    @media (min-width: 600px) { //768
+    @media screen and (max-width: 600px) { //768
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
