@@ -235,7 +235,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: $theme-blue; //white;
+        color: white; //$theme-blue; 
         opacity: 0;
         display: block;
         background: $theme-primary; //rgba( $theme-primary, .9 );
@@ -263,7 +263,7 @@ header {
             }
             .project-name {
                 font-weight: 700;
-                font-size: 25px;
+                font-size: 20px;
             }
         }
     }
@@ -280,7 +280,7 @@ header {
                 }
                 .project-name {
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 25px;
                 }
             }
         }
