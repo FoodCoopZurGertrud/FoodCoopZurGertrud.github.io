@@ -264,6 +264,7 @@ header {
             .project-name {
                 font-weight: 700;
                 font-size: 20px;
+                color: white;
             }
         }
     }
@@ -272,7 +273,7 @@ header {
             opacity: 1;
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 600px) { //768
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
@@ -280,7 +281,8 @@ header {
                 }
                 .project-name {
                     font-weight: 700;
-                    font-size: 25px;
+                    font-size: 30px;
+                    color: white;
                 }
             }
         }
